@@ -2,7 +2,7 @@ import env
 import logging
 from pyrogram import Client, idle
 from pyromod import listen  # type: ignore
-from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
+from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood
 
 logging.basicConfig(
     level=logging.WARNING, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
