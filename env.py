@@ -5,7 +5,7 @@ load_dotenv()
 
 API_ID = os.getenv("API_ID", "").strip()
 API_HASH = os.getenv("API_HASH", "").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "5069795093:AAH0Lq4etcRQErMB4-38a_uYR4ghKCNTjrE").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "")
 
